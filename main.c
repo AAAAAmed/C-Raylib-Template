@@ -46,9 +46,6 @@ int main(){
   while (!WindowShouldClose()) {
     float dt = GetFrameTime();
 
-    if (GetMonitorRefreshRate(GetCurrentMonitor()) != target_fps)
-      SetTargetFPS(GetMonitorRefreshRate(GetCurrentMonitor()));
-
     SCREEN_WIDTH = GetScreenWidth();
     SCREEN_HEIGHT= GetScreenHeight();
 
